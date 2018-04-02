@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+ document.addEventListener('DOMContentLoaded',function(){
+ 	document.querySelector('button').onclick=fun;
+
+ });
+ let counter=0;
+ function fun(){
+ 	counter++;
+ 	document.querySelector('#counter').innerHTML=counter;
+
+ }
+   
+	</script>
+	<h1 id="counter"> 0</h1>
+	<button> click here</button>
+
+</body>
+</html>
